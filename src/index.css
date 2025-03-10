@@ -4,7 +4,7 @@
 
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
-:root
+ :root
 {
     --main-color:#0aad0a;
     --light-color:#f0f3f2;
@@ -60,7 +60,13 @@ a , a:hover{
 .bg-main-light 
 {
     background-color: var(--light-color) !important;
-} 
+}  
 .active{
     color: var(--main-color);
 }
+
+
+/* .video-container{
+    pointer-events: none;
+
+} */
